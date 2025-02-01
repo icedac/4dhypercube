@@ -23,6 +23,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '22'
+      - name: Enable Corepack
+        run: corepack enable    
+      - name: Prepare pnpm
+        run: corepack prepare pnpm@9.15.4 --activate
       - name: Install dependencies
         run: pnpm i
       - name: Build project
