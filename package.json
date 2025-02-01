@@ -5,6 +5,11 @@
         "start": "parcel index.html",
         "build": "parcel build index.html"
     },
+    "targets": {
+        "default": {
+            "publicUrl": "./"
+        }
+    },
     "dependencies": {
         "three": "^0.150.1"
     },
