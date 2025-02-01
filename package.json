@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "scripts": {
         "start": "parcel index.html",
-        "build": "tsc"
+        "build": "parcel build index.html"
     },
     "dependencies": {
         "three": "^0.150.1"
